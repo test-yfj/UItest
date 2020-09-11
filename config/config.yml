@@ -1,0 +1,11 @@
+URL: http://123.56.183.13:8081/ # 测试系统网址
+log:
+  file_name: test.log
+  backup: 5
+  console_level: WARNING
+  file_level: DEBUG
+  pattern: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+email:
+  sender: 'yfj15288451258@163.com'  # 发送人
+  password: 'JHEOYJSLFOIZXVJG'  # 邮箱授权码
+  on_off: 'off'  # 是否发送邮件开关，off为不发送
