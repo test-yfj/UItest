@@ -173,9 +173,9 @@ class Zhuanjie(Page):
         self.text3_loc(text3)
         self.time_loc(time)
         self.btn_loc()
-        sleep(2)
+        sleep(5)
         self.addSure_loc()
-        sleep(2)
+        sleep(5)
         return self.text_loc()
 
     # 修改
@@ -205,38 +205,38 @@ class Zhuanjie(Page):
         if time != "":
             self.time_loc(time)
         self.btnUpdate_loc()
-        sleep(2)
+        sleep(5)
         self.btnSure_loc()
-        sleep(2)
+        sleep(5)
         return self.text_loc()
 
     # 删除
     def zhuanjie_del(self):
         self.btnDel_loc()
-        sleep(2)
+        sleep(5)
         self.btnSure_loc()
-        sleep(2)
+        sleep(5)
         return self.text_loc()
 
     # 提交
     def zhuanjie_submit(self):
         self.btnSub_loc()
-        sleep(2)
+        sleep(5)
         self.btnSure_loc()
-        sleep(2)
+        sleep(5)
         return self.text_loc()
 
     # 查看
     def zhuanjie_see(self):
         self.btnSub_loc()
-        sleep(2)
+        sleep(5)
         self.btnCancel_loc()
-        sleep(2)
+        sleep(5)
 
     # 撤回
     def zhuanjie_back(self):
         self.btnUpdate_loc()
-        sleep(2)
+        sleep(5)
         self.btnSure_loc()
-        sleep(2)
+        sleep(5)
         return self.text_loc()
